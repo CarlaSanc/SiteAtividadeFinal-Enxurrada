@@ -1,0 +1,233 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --fonte1: "Tahoma", Geneva, Verdana, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+    --cor00:  #4B11E0;
+    
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+html, body {
+    
+    background-color: rgb(238, 250, 225);
+    font-family: var(--fonte1);
+}
+
+main {
+    padding: 10px 20px 20px 20px;
+    border-radius: 10px;  
+}
+p {
+    text-indent: 40px;
+    line-height: 1.8em;   
+}
+h2 {
+    color: #633b0efd; 
+    font-size: 40px;  
+}
+
+.br {
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10px;
+    text-align:justify;
+    background-color: rgba(64, 230, 42, 0.109);
+    
+}
+.br > p {
+    padding-left: 60px;
+    padding-right: 60px;
+
+}
+h1 {
+    color: #264926d3;
+    text-align: center;
+}
+
+#paragrafo {
+    padding-left: 30px;
+    color:#081d08;
+    text-align: center;
+    padding-top: 5px;
+    font-weight: bolder;
+    padding-bottom: 10px; 
+}
+
+nav {
+    padding-right: 30px;
+    padding-bottom: 5px;
+    background-color: #0c440dd8;
+    font-family: var(--fonte3);
+    box-shadow: 0px 6px 7px rgba(0, 0, 0, 0.774);
+    text-align: right;
+   
+}
+nav > a {
+    color:#bbcfbb;
+    font-weight: normal;
+    margin-right: 10px;
+    padding-bottom: 10px;    
+}
+
+nav a:hover {
+    text-decoration: underline; 
+    color:rgba(216, 99, 53, 0.972); 
+    background-color: rgba(15, 71, 15, 0.534);   
+}
+
+a {
+    color: rgba(14, 10, 243, 0.828);
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+a:hover {
+    text-decoration: underline; 
+    color:rgba(216, 99, 53, 0.972); 
+}
+section {
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+    padding-left: 20px; 
+}
+
+section.normal {
+    background: white;
+    color: black; 
+    padding-right: 20px;
+}
+
+h3 {
+    padding-left: 15px;
+    
+}
+h2 {
+    padding-left: 15px;
+}   
+.normal > h3 {
+    padding-top: 20px;
+    color: #633b0efd;
+    padding-left: 10px;
+    font-size: 40px;  
+    padding-bottom: 20px;
+    margin: 0px;
+}
+
+.normal > h4 {
+   text-align: center;
+    margin: unset;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;  
+  
+}
+div #reportagem {
+  
+    float: none;
+    padding: 50px 50px 50px 20px;
+    text-align:justify;
+    line-height: 1.8em;
+
+}
+#revista {
+    
+    padding-right: 100px;
+    padding-left: 20px;
+    float:right; 
+    padding-top: 40px;
+    min-width: 100px;
+    max-width: 500px;
+}
+section.imagem {
+    background-color:white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.692);
+    background-attachment: fixed;
+
+}
+section.imagem > p {
+    background-position: center;
+    padding: 5px;
+    background: rgba(0, 0, 0, 0.678);
+    color:rgb(243, 235, 235);
+    font-family: var(--fonte1);
+    font-size: 23px;
+    margin: 20px 25px 10px 15px;
+    text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.931);
+    
+}
+.historia {
+    background-position: center;
+    padding-left: 10px;
+    background: rgba(53, 173, 17, 0.096);
+    color:rgba(0, 0, 0, 0.767);
+    font-family: var(--fonte3);
+    font-size: 23px;
+    margin: 20px 20px 10px 20px;
+    box-shadow: inset 3px 3px 13px 3px rgba(53, 173, 17, 0.678);
+}
+.historia > p {
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+section > p {
+    display: block;
+    padding: 15px;
+    text-align: justify;
+}
+
+header#img01 {
+    background-image: url(../imagens/Floresta.jpg);
+    background-position: right center;
+}
+
+section#img02 {
+    background-image: url(../imagens/O\ encanto\ dos\ orixás\ opacidade90.jpg);
+    background-size: cover;
+}
+div.iemanja{
+    padding-top: 20px;
+    padding-left: 60px;
+    position: relative;
+    padding-bottom: 10%;
+    
+}
+
+div.iemanja > audio {
+    background-color: rgb(9, 56, 11);
+    position: relative;
+    width:70% ;
+
+}   
+div.iemanja > img {
+    position: relative;
+    width:70% ;
+   
+}
+    
+footer a {
+    color: #D5B364;
+    font-size: 10px;
+    float: none;
+}
+
+footer a:hover  {
+    color: rgb(92, 80, 16);
+}
+
+footer {
+   
+   background:  #2c0a61fb ;
+   color: rgb(231, 223, 176);
+   text-align: center;
+   padding: 3px;
+   font: 1em sans-serif;
+}
